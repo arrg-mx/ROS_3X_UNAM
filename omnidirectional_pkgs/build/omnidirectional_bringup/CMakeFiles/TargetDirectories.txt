@@ -1,0 +1,9 @@
+/home/robousr/ws_proyecto/omnidirectional_pkgs/build/omnidirectional_bringup/CMakeFiles/uninstall.dir
+/home/robousr/ws_proyecto/omnidirectional_pkgs/build/omnidirectional_bringup/CMakeFiles/omnidirectional_bringup_uninstall.dir
+/home/robousr/ws_proyecto/omnidirectional_pkgs/build/omnidirectional_bringup/CMakeFiles/test.dir
+/home/robousr/ws_proyecto/omnidirectional_pkgs/build/omnidirectional_bringup/CMakeFiles/edit_cache.dir
+/home/robousr/ws_proyecto/omnidirectional_pkgs/build/omnidirectional_bringup/CMakeFiles/rebuild_cache.dir
+/home/robousr/ws_proyecto/omnidirectional_pkgs/build/omnidirectional_bringup/CMakeFiles/list_install_components.dir
+/home/robousr/ws_proyecto/omnidirectional_pkgs/build/omnidirectional_bringup/CMakeFiles/install.dir
+/home/robousr/ws_proyecto/omnidirectional_pkgs/build/omnidirectional_bringup/CMakeFiles/install/local.dir
+/home/robousr/ws_proyecto/omnidirectional_pkgs/build/omnidirectional_bringup/CMakeFiles/install/strip.dir

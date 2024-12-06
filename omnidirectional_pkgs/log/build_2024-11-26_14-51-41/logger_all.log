@@ -1,0 +1,191 @@
+[1.503s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.503s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x79b5f4f2bac0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x79b5f4f2b580>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x79b5f4f2b580>>, mixin_verb=('build',))
+[2.673s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.673s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.673s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.673s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.673s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.673s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.674s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/robousr/ws_proyecto/omnidirectional_pkgs'
+[2.674s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.674s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.674s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.674s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.674s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.674s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.674s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.674s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.674s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.699s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.699s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.699s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.699s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.699s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.699s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.699s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.699s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.700s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.700s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.700s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.700s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.700s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.700s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.701s] Level 1:colcon.colcon_core.package_identification:_identify(omnidirectional_bringup) by extensions ['ignore', 'ignore_ament_install']
+[2.701s] Level 1:colcon.colcon_core.package_identification:_identify(omnidirectional_bringup) by extension 'ignore'
+[2.701s] Level 1:colcon.colcon_core.package_identification:_identify(omnidirectional_bringup) by extension 'ignore_ament_install'
+[2.701s] Level 1:colcon.colcon_core.package_identification:_identify(omnidirectional_bringup) by extensions ['colcon_pkg']
+[2.701s] Level 1:colcon.colcon_core.package_identification:_identify(omnidirectional_bringup) by extension 'colcon_pkg'
+[2.702s] Level 1:colcon.colcon_core.package_identification:_identify(omnidirectional_bringup) by extensions ['colcon_meta']
+[2.702s] Level 1:colcon.colcon_core.package_identification:_identify(omnidirectional_bringup) by extension 'colcon_meta'
+[2.702s] Level 1:colcon.colcon_core.package_identification:_identify(omnidirectional_bringup) by extensions ['ros']
+[2.702s] Level 1:colcon.colcon_core.package_identification:_identify(omnidirectional_bringup) by extension 'ros'
+[2.708s] DEBUG:colcon.colcon_core.package_identification:Package 'omnidirectional_bringup' with type 'ros.ament_cmake' and name 'omnidirectional_bringup'
+[2.708s] Level 1:colcon.colcon_core.package_identification:_identify(omnidirectional_description) by extensions ['ignore', 'ignore_ament_install']
+[2.708s] Level 1:colcon.colcon_core.package_identification:_identify(omnidirectional_description) by extension 'ignore'
+[2.708s] Level 1:colcon.colcon_core.package_identification:_identify(omnidirectional_description) by extension 'ignore_ament_install'
+[2.708s] Level 1:colcon.colcon_core.package_identification:_identify(omnidirectional_description) by extensions ['colcon_pkg']
+[2.709s] Level 1:colcon.colcon_core.package_identification:_identify(omnidirectional_description) by extension 'colcon_pkg'
+[2.709s] Level 1:colcon.colcon_core.package_identification:_identify(omnidirectional_description) by extensions ['colcon_meta']
+[2.709s] Level 1:colcon.colcon_core.package_identification:_identify(omnidirectional_description) by extension 'colcon_meta'
+[2.709s] Level 1:colcon.colcon_core.package_identification:_identify(omnidirectional_description) by extensions ['ros']
+[2.709s] Level 1:colcon.colcon_core.package_identification:_identify(omnidirectional_description) by extension 'ros'
+[2.710s] DEBUG:colcon.colcon_core.package_identification:Package 'omnidirectional_description' with type 'ros.ament_cmake' and name 'omnidirectional_description'
+[2.710s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.710s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.710s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.710s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.710s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.052s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.052s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.061s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/robousr/ws_Uriel/tm_ejem1_ws/install
+[3.063s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 303 installed packages in /opt/ros/humble
+[3.065s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.355s] Level 5:colcon.colcon_core.verb:set package 'omnidirectional_bringup' build argument 'cmake_args' from command line to 'None'
+[3.355s] Level 5:colcon.colcon_core.verb:set package 'omnidirectional_bringup' build argument 'cmake_target' from command line to 'None'
+[3.355s] Level 5:colcon.colcon_core.verb:set package 'omnidirectional_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.355s] Level 5:colcon.colcon_core.verb:set package 'omnidirectional_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[3.355s] Level 5:colcon.colcon_core.verb:set package 'omnidirectional_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[3.355s] Level 5:colcon.colcon_core.verb:set package 'omnidirectional_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[3.355s] Level 5:colcon.colcon_core.verb:set package 'omnidirectional_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[3.355s] Level 5:colcon.colcon_core.verb:set package 'omnidirectional_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[3.355s] Level 5:colcon.colcon_core.verb:set package 'omnidirectional_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.356s] DEBUG:colcon.colcon_core.verb:Building package 'omnidirectional_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robousr/ws_proyecto/omnidirectional_pkgs/build/omnidirectional_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_bringup', 'merge_install': False, 'path': '/home/robousr/ws_proyecto/omnidirectional_pkgs/omnidirectional_bringup', 'symlink_install': False, 'test_result_base': None}
+[3.356s] Level 5:colcon.colcon_core.verb:set package 'omnidirectional_description' build argument 'cmake_args' from command line to 'None'
+[3.356s] Level 5:colcon.colcon_core.verb:set package 'omnidirectional_description' build argument 'cmake_target' from command line to 'None'
+[3.356s] Level 5:colcon.colcon_core.verb:set package 'omnidirectional_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.356s] Level 5:colcon.colcon_core.verb:set package 'omnidirectional_description' build argument 'cmake_clean_cache' from command line to 'False'
+[3.356s] Level 5:colcon.colcon_core.verb:set package 'omnidirectional_description' build argument 'cmake_clean_first' from command line to 'False'
+[3.356s] Level 5:colcon.colcon_core.verb:set package 'omnidirectional_description' build argument 'cmake_force_configure' from command line to 'False'
+[3.356s] Level 5:colcon.colcon_core.verb:set package 'omnidirectional_description' build argument 'ament_cmake_args' from command line to 'None'
+[3.356s] Level 5:colcon.colcon_core.verb:set package 'omnidirectional_description' build argument 'catkin_cmake_args' from command line to 'None'
+[3.356s] Level 5:colcon.colcon_core.verb:set package 'omnidirectional_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.357s] DEBUG:colcon.colcon_core.verb:Building package 'omnidirectional_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robousr/ws_proyecto/omnidirectional_pkgs/build/omnidirectional_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description', 'merge_install': False, 'path': '/home/robousr/ws_proyecto/omnidirectional_pkgs/omnidirectional_description', 'symlink_install': False, 'test_result_base': None}
+[3.357s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.359s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.359s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robousr/ws_proyecto/omnidirectional_pkgs/omnidirectional_bringup' with build type 'ament_cmake'
+[3.359s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robousr/ws_proyecto/omnidirectional_pkgs/omnidirectional_bringup'
+[3.375s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.375s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.375s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.383s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robousr/ws_proyecto/omnidirectional_pkgs/omnidirectional_description' with build type 'ament_cmake'
+[3.383s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robousr/ws_proyecto/omnidirectional_pkgs/omnidirectional_description'
+[3.383s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.384s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.395s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robousr/ws_proyecto/omnidirectional_pkgs/build/omnidirectional_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/robousr/ws_proyecto/omnidirectional_pkgs/omnidirectional_bringup -DCMAKE_INSTALL_PREFIX=/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_bringup
+[3.413s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robousr/ws_proyecto/omnidirectional_pkgs/build/omnidirectional_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/robousr/ws_proyecto/omnidirectional_pkgs/omnidirectional_description -DCMAKE_INSTALL_PREFIX=/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description
+[12.360s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robousr/ws_proyecto/omnidirectional_pkgs/build/omnidirectional_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/robousr/ws_proyecto/omnidirectional_pkgs/omnidirectional_bringup -DCMAKE_INSTALL_PREFIX=/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_bringup
+[12.363s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robousr/ws_proyecto/omnidirectional_pkgs/build/omnidirectional_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robousr/ws_proyecto/omnidirectional_pkgs/build/omnidirectional_bringup -- -j2 -l2
+[12.434s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robousr/ws_proyecto/omnidirectional_pkgs/build/omnidirectional_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robousr/ws_proyecto/omnidirectional_pkgs/build/omnidirectional_bringup -- -j2 -l2
+[12.526s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robousr/ws_proyecto/omnidirectional_pkgs/build/omnidirectional_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robousr/ws_proyecto/omnidirectional_pkgs/build/omnidirectional_bringup
+[12.549s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(omnidirectional_bringup)
+[12.550s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robousr/ws_proyecto/omnidirectional_pkgs/build/omnidirectional_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robousr/ws_proyecto/omnidirectional_pkgs/build/omnidirectional_bringup
+[12.799s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_bringup' for CMake module files
+[12.801s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_bringup' for CMake config files
+[12.801s] Level 1:colcon.colcon_core.shell:create_environment_hook('omnidirectional_bringup', 'cmake_prefix_path')
+[12.802s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_bringup/share/omnidirectional_bringup/hook/cmake_prefix_path.ps1'
+[12.806s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_bringup/share/omnidirectional_bringup/hook/cmake_prefix_path.dsv'
+[12.808s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_bringup/share/omnidirectional_bringup/hook/cmake_prefix_path.sh'
+[12.811s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_bringup/bin'
+[12.811s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_bringup/lib/pkgconfig/omnidirectional_bringup.pc'
+[12.812s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_bringup/lib/python3.10/site-packages'
+[12.813s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_bringup/bin'
+[12.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_bringup/share/omnidirectional_bringup/package.ps1'
+[12.819s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_bringup/share/omnidirectional_bringup/package.dsv'
+[12.822s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_bringup/share/omnidirectional_bringup/package.sh'
+[12.826s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_bringup/share/omnidirectional_bringup/package.bash'
+[12.831s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_bringup/share/omnidirectional_bringup/package.zsh'
+[12.837s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_bringup/share/colcon-core/packages/omnidirectional_bringup)
+[12.896s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(omnidirectional_bringup)
+[12.897s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_bringup' for CMake module files
+[12.897s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_bringup' for CMake config files
+[12.898s] Level 1:colcon.colcon_core.shell:create_environment_hook('omnidirectional_bringup', 'cmake_prefix_path')
+[12.899s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_bringup/share/omnidirectional_bringup/hook/cmake_prefix_path.ps1'
+[12.899s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_bringup/share/omnidirectional_bringup/hook/cmake_prefix_path.dsv'
+[12.900s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_bringup/share/omnidirectional_bringup/hook/cmake_prefix_path.sh'
+[12.901s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_bringup/bin'
+[12.902s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_bringup/lib/pkgconfig/omnidirectional_bringup.pc'
+[12.902s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_bringup/lib/python3.10/site-packages'
+[12.902s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_bringup/bin'
+[12.903s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_bringup/share/omnidirectional_bringup/package.ps1'
+[12.904s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_bringup/share/omnidirectional_bringup/package.dsv'
+[12.905s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_bringup/share/omnidirectional_bringup/package.sh'
+[12.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_bringup/share/omnidirectional_bringup/package.bash'
+[12.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_bringup/share/omnidirectional_bringup/package.zsh'
+[12.907s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_bringup/share/colcon-core/packages/omnidirectional_bringup)
+[14.004s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robousr/ws_proyecto/omnidirectional_pkgs/build/omnidirectional_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/robousr/ws_proyecto/omnidirectional_pkgs/omnidirectional_description -DCMAKE_INSTALL_PREFIX=/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description
+[14.007s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robousr/ws_proyecto/omnidirectional_pkgs/build/omnidirectional_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robousr/ws_proyecto/omnidirectional_pkgs/build/omnidirectional_description -- -j2 -l2
+[14.078s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robousr/ws_proyecto/omnidirectional_pkgs/build/omnidirectional_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robousr/ws_proyecto/omnidirectional_pkgs/build/omnidirectional_description -- -j2 -l2
+[14.126s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robousr/ws_proyecto/omnidirectional_pkgs/build/omnidirectional_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robousr/ws_proyecto/omnidirectional_pkgs/build/omnidirectional_description
+[14.150s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(omnidirectional_description)
+[14.150s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description' for CMake module files
+[14.151s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robousr/ws_proyecto/omnidirectional_pkgs/build/omnidirectional_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robousr/ws_proyecto/omnidirectional_pkgs/build/omnidirectional_description
+[14.151s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description' for CMake config files
+[14.152s] Level 1:colcon.colcon_core.shell:create_environment_hook('omnidirectional_description', 'cmake_prefix_path')
+[14.152s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description/hook/cmake_prefix_path.ps1'
+[14.153s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description/hook/cmake_prefix_path.dsv'
+[14.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description/hook/cmake_prefix_path.sh'
+[14.154s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/bin'
+[14.154s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/lib/pkgconfig/omnidirectional_description.pc'
+[14.155s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/lib/python3.10/site-packages'
+[14.155s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/bin'
+[14.156s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description/package.ps1'
+[14.156s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description/package.dsv'
+[14.157s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description/package.sh'
+[14.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description/package.bash'
+[14.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description/package.zsh'
+[14.159s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/colcon-core/packages/omnidirectional_description)
+[14.205s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(omnidirectional_description)
+[14.206s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description' for CMake module files
+[14.207s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description' for CMake config files
+[14.207s] Level 1:colcon.colcon_core.shell:create_environment_hook('omnidirectional_description', 'cmake_prefix_path')
+[14.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description/hook/cmake_prefix_path.ps1'
+[14.208s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description/hook/cmake_prefix_path.dsv'
+[14.209s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description/hook/cmake_prefix_path.sh'
+[14.210s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/bin'
+[14.210s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/lib/pkgconfig/omnidirectional_description.pc'
+[14.210s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/lib/python3.10/site-packages'
+[14.210s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/bin'
+[14.211s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description/package.ps1'
+[14.212s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description/package.dsv'
+[14.213s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description/package.sh'
+[14.214s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description/package.bash'
+[14.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description/package.zsh'
+[14.216s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/colcon-core/packages/omnidirectional_description)
+[14.217s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[14.218s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[14.218s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[14.218s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[14.248s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[14.249s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[14.249s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[14.294s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[14.295s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/local_setup.ps1'
+[14.298s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/_local_setup_util_ps1.py'
+[14.301s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/setup.ps1'
+[14.304s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/local_setup.sh'
+[14.306s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/_local_setup_util_sh.py'
+[14.307s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/setup.sh'
+[14.312s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/local_setup.bash'
+[14.315s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/setup.bash'
+[14.319s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/local_setup.zsh'
+[14.323s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robousr/ws_proyecto/omnidirectional_pkgs/install/setup.zsh'

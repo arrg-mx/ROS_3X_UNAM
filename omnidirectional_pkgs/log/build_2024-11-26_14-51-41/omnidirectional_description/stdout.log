@@ -1,0 +1,69 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /home/robousr/.pyenv/shims/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)
+-- Found control_msgs: 4.6.0 (/opt/ros/humble/share/control_msgs/cmake)
+-- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/robousr/ws_proyecto/omnidirectional_pkgs/build/omnidirectional_description
+-- Install configuration: ""
+-- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description//urdf
+-- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description//urdf/omnidirectional.urdf
+-- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description//urdf/omni_controller.xacro
+-- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description//urdf/omnidirectional_urdf.xacro
+-- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description//urdf/imu.xacro
+-- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description//urdf/lidar.xacro
+-- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description//urdf/omnidirectional_control.xacro
+-- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description//urdf/omnidirectional_gz_propierties.xacro
+-- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description//urdf/camera.xacro
+-- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description//launch
+-- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description//launch/display.launch.xml
+-- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description//rviz
+-- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description//rviz/omnidirectional_rviz.rviz
+-- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description//rviz/urdf.rviz
+-- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description//config
+-- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description//config/omni_velocity_controller.yaml
+-- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/ament_index/resource_index/package_run_dependencies/omnidirectional_description
+-- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/ament_index/resource_index/parent_prefix_path/omnidirectional_description
+-- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description/environment/ament_prefix_path.sh
+-- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description/environment/ament_prefix_path.dsv
+-- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description/environment/path.sh
+-- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description/environment/path.dsv
+-- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description/local_setup.bash
+-- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description/local_setup.sh
+-- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description/local_setup.zsh
+-- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description/local_setup.dsv
+-- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description/package.dsv
+-- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/ament_index/resource_index/packages/omnidirectional_description
+-- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description/cmake/omnidirectional_descriptionConfig.cmake
+-- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description/cmake/omnidirectional_descriptionConfig-version.cmake
+-- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description/package.xml

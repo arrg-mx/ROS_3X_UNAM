@@ -1,0 +1,75 @@
+[0.028s] Invoking command in '/home/robousr/ws_proyecto/omnidirectional_pkgs/build/omnidirectional_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/robousr/ws_proyecto/omnidirectional_pkgs/omnidirectional_description -DCMAKE_INSTALL_PREFIX=/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description
+[0.691s] -- The C compiler identification is GNU 11.4.0
+[1.823s] -- The CXX compiler identification is GNU 11.4.0
+[5.479s] -- Detecting C compiler ABI info
+[5.640s] -- Detecting C compiler ABI info - done
+[5.652s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.652s] -- Detecting C compile features
+[5.654s] -- Detecting C compile features - done
+[5.660s] -- Detecting CXX compiler ABI info
+[5.808s] -- Detecting CXX compiler ABI info - done
+[5.822s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.822s] -- Detecting CXX compile features
+[5.823s] -- Detecting CXX compile features - done
+[5.841s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.953s] -- Found Python3: /home/robousr/.pyenv/shims/python3 (found version "3.10.12") found components: Interpreter 
+[7.747s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[7.852s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[7.867s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[7.894s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[7.928s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.311s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.477s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[8.487s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[8.732s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.802s] -- Found FastRTPS: /opt/ros/humble/include  
+[8.872s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.910s] -- Looking for pthread.h
+[9.093s] -- Looking for pthread.h - found
+[9.094s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.513s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.515s] -- Found Threads: TRUE  
+[9.669s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[9.710s] -- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)
+[9.972s] -- Found control_msgs: 4.6.0 (/opt/ros/humble/share/control_msgs/cmake)
+[10.120s] -- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)
+[10.583s] -- Configuring done
+[10.593s] -- Generating done
+[10.596s] -- Build files have been written to: /home/robousr/ws_proyecto/omnidirectional_pkgs/build/omnidirectional_description
+[10.619s] Invoked command in '/home/robousr/ws_proyecto/omnidirectional_pkgs/build/omnidirectional_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/robousr/ws_proyecto/omnidirectional_pkgs/omnidirectional_description -DCMAKE_INSTALL_PREFIX=/home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description
+[10.620s] Invoking command in '/home/robousr/ws_proyecto/omnidirectional_pkgs/build/omnidirectional_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robousr/ws_proyecto/omnidirectional_pkgs/build/omnidirectional_description -- -j2 -l2
+[10.693s] Invoked command in '/home/robousr/ws_proyecto/omnidirectional_pkgs/build/omnidirectional_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robousr/ws_proyecto/omnidirectional_pkgs/build/omnidirectional_description -- -j2 -l2
+[10.741s] Invoking command in '/home/robousr/ws_proyecto/omnidirectional_pkgs/build/omnidirectional_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robousr/ws_proyecto/omnidirectional_pkgs/build/omnidirectional_description
+[10.753s] -- Install configuration: ""
+[10.753s] -- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description//urdf
+[10.753s] -- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description//urdf/omnidirectional.urdf
+[10.753s] -- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description//urdf/omni_controller.xacro
+[10.754s] -- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description//urdf/omnidirectional_urdf.xacro
+[10.754s] -- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description//urdf/imu.xacro
+[10.754s] -- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description//urdf/lidar.xacro
+[10.754s] -- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description//urdf/omnidirectional_control.xacro
+[10.755s] -- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description//urdf/omnidirectional_gz_propierties.xacro
+[10.755s] -- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description//urdf/camera.xacro
+[10.755s] -- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description//launch
+[10.755s] -- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description//launch/display.launch.xml
+[10.755s] -- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description//rviz
+[10.756s] -- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description//rviz/omnidirectional_rviz.rviz
+[10.756s] -- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description//rviz/urdf.rviz
+[10.756s] -- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description//config
+[10.756s] -- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description//config/omni_velocity_controller.yaml
+[10.757s] -- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/ament_index/resource_index/package_run_dependencies/omnidirectional_description
+[10.757s] -- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/ament_index/resource_index/parent_prefix_path/omnidirectional_description
+[10.757s] -- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description/environment/ament_prefix_path.sh
+[10.758s] -- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description/environment/ament_prefix_path.dsv
+[10.758s] -- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description/environment/path.sh
+[10.758s] -- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description/environment/path.dsv
+[10.760s] -- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description/local_setup.bash
+[10.760s] -- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description/local_setup.sh
+[10.760s] -- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description/local_setup.zsh
+[10.760s] -- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description/local_setup.dsv
+[10.760s] -- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description/package.dsv
+[10.761s] -- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/ament_index/resource_index/packages/omnidirectional_description
+[10.761s] -- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description/cmake/omnidirectional_descriptionConfig.cmake
+[10.762s] -- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description/cmake/omnidirectional_descriptionConfig-version.cmake
+[10.762s] -- Installing: /home/robousr/ws_proyecto/omnidirectional_pkgs/install/omnidirectional_description/share/omnidirectional_description/package.xml
+[10.766s] Invoked command in '/home/robousr/ws_proyecto/omnidirectional_pkgs/build/omnidirectional_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robousr/ws_proyecto/omnidirectional_pkgs/build/omnidirectional_description
